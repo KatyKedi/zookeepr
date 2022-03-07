@@ -30,7 +30,7 @@ const handleAnimalFormSubmit = event => {
     method: 'POST',
     headers: {
       Accept: 'application/json',
-      'Content-TYpe': 'application/json'
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify(animalObject)
   })
